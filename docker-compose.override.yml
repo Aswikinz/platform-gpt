@@ -1,10 +1,10 @@
-version: '3.4'
-
+version: "3.8"
 services:
   api:
     volumes:
-      - ./client/public/assets/favicon-16x16.png:/app/client/public/assets/favicon-16x16.png
-      - ./client/public/assets/favicon-32x32.png:/app/client/public/assets/favicon-32x32.png
-      - ./client/public/assets/logo.svg:/app/client/public/assets/logo.svg
-      - ./client/public/assets/apple-touch-icon-180x180.png:/app/client/public/assets/apple-touch-icon-180x180.png
-      - ./client/public/assets/maskable-icon.png:/app/client/public/assets/maskable-icon.png
+      - ./client/public/assets/favicon-16x16.png:/app/client/dist/assets/favicon-16x16.png
+      - ./client/public/assets/favicon-32x32.png:/app/client/dist/assets/favicon-32x32.png
+      - ./client/public/assets/logo.svg:/app/client/dist/assets/logo.svg
+      - ./client/public/assets/custom_icon.png:/app/client/dist/assets/custom_icon.png
+      - ./client/public/assets/apple-touch-icon-180x180.png:/app/client/dist/assets/apple-touch-icon-180x180.png
+      - ./client/public/assets/maskable-icon.png:/app/client/dist/assets/maskable-icon.png
